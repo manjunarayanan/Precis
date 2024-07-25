@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff; /* To ensure the background color is consistent */
+    padding: 10px 0; /* To add some padding for better visibility */
+    z-index: 1; /* To make sure it stays on top */
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info p {
+    margin: 5px 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #d3d3d3; /* Light grey */
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 -20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1; /* To ensure it stays on top */
+    background: #d3d3d3; /* To keep the background color when sticky */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top; /* Aligns the content to the top */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign {
+    float: right; 
+    margin-right: 40px;
+}
+
